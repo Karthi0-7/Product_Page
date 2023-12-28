@@ -1,0 +1,276 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+header li {
+    display: inline-block;  
+    padding: 0 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: blue;
+}
+
+.main {
+    margin-right: auto;
+    font-size: 2rem;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.sub-main {
+    text-align: center;
+    width: auto;
+    height: 50px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mini-header {
+    font-size: 2.5rem;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.mini-para {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.get {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    border-radius: 2rem;
+    padding: 3%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    word-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.get:hover {
+    background-color: white;
+    color: blue;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+
+.content-heading {
+    padding: 1% 5% 1% 5%;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.content {
+    padding: 3%;
+    display: flex;
+}
+
+#content-id {
+    padding-bottom: 5.6rem;
+}
+
+.basic {
+    border: solid blue;
+    border-radius: 0.5rem 4rem 4rem 4rem;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin: 1%;
+    background-color: black;
+}
+
+.prem {
+    border: solid blue;
+    border-radius: 4rem;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin: 1%;
+    background-color: black;
+}
+
+.ult {
+    border: solid blue;
+    border-radius: 4rem 4rem 0.5rem 4rem;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin: 1%;
+    background-color: black;
+}
+
+.content li {
+    list-style: none;
+}
+
+.bs {
+    text-align: center;
+    color: blue;
+    font-size: 2.2rem;
+    padding-bottom: 3%;
+}
+
+.pr {
+    text-align: center;
+    color: blue;
+    font-size: 2.2rem;
+    padding-bottom: 3%;
+}
+
+.ultre {
+    text-align: center;
+    color: blue;
+    padding-bottom: 3%;
+    font-size: 2.2rem;
+}
+
+.bs-list {
+    color: white;
+}
+
+.pr-list {
+    color: white;   
+}
+
+.ul-list {
+    color: white;
+}
+
+.bs-btn {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.bs-btn button {
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    background-color: white;
+    cursor: pointer;
+    width: 70%;
+}
+
+.bs-btn button:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}
+
+.pr-btn {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.pr-btn button {
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: white;
+    width: 70%;
+}
+
+.pr-btn button:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}
+
+.ult-btn {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.ult-btn button {
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    background-color: white;
+    cursor: pointer;
+    width: 70%;
+}
+
+.ult-btn button:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}
+
+.arr {
+    font-size: 5rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 750px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width : 499px){
+    .head-list{
+        visibility: hidden;
+    }
+}
+
+
