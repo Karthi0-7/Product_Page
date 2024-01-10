@@ -1,4 +1,4 @@
-# Motioncut_Project_1
+# Product_page
 
 [DEMO](https://karthi0-7.github.io/Motioncut_Project_1/)
 
